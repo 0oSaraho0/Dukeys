@@ -22,7 +22,7 @@ header {
 #heading {
     color: cornsilk;
     font-family: "Bebas Neue";
-    font-size: 600%;
+    font-size: 800%;
     margin: 20px 0 0 20px;
     float: left;
 }
@@ -31,17 +31,18 @@ header {
 
     
 #menu, #heading {
-    line-height: 75px;
+    line-height: 150px;
+}
+
+#menu, ul {
+    float: right;
 }
 
 #menu, li {
-    float: right;
-    display: inline;  
-    display: inline; 
+    display: inline-block;  
     font-size: 150%;
     letter-spacing: 5px; 
     margin-right: 50px;
-    margin-top: 50px;
     
 
 }
@@ -49,10 +50,11 @@ header {
 #menu, a {
     text-decoration: none;
     color: inherit;
+    
 }
 
-#menu:hover {
-    background-color: cornsilk;
+a:hover {
+    text-decoration: underline solid 1px;
 }
 
 a:hover {
@@ -68,4 +70,13 @@ a:hover {
     
     
 
+}/*brew labels*/
+
+.brew-labels {
+    display: inline;
+}
+
+.brew-labels, img{
+    width: 33%;
+    
 }
