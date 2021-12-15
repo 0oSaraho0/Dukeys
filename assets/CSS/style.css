@@ -1,10 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Georama:wght@300&display=swap');
 
+* {
+    margin: 0;
+   padding: 0;
+   border: none;
+}
+
 body {
    font-family: Georama, sans-serif;
    font-weight: 300;
+   background-color: #171010;
+   color: cornsilk;
+   
 }
 
-h1 {
+
+#heading {
+    color: cornsilk;
     font-family: "Bebas Neue";
+    font-size: 600%;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+/*navigation styling*/
+
+#menu {
+    float:right;
+    display: inline; 
+    font-size: 150%;
+    letter-spacing: 5px; 
+    margin-right: 50px;
+    
+    
+}
+
+#menu, #heading {
+    line-height: 75px;
+}
+#menu li {
+    display: inline;  
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu:hover {
+    background-color: cornsilk;
+}
+
+a:hover {
+  border-bottom: 1px;
 }
