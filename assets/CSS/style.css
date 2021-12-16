@@ -72,11 +72,17 @@ a:hover {
 
 }/*brew labels*/
 
-.brew-labels {
-    display: inline;
-}
+
 
 .brew-labels, img{
     width: 33%;
     
+}
+
+.label {
+    position: relative;
+    
+}
+.brew-labels {
+    display: inline;
 }
