@@ -68,21 +68,29 @@ a:hover {
     background-image: url('../images/brewing-kit.jpg');
     
     
-    
-
-}/*brew labels*/
-
-
-
-.brew-labels, img{
-    width: 33%;
-    
 }
 
-.label {
+/*brew labels*/
+
+.dropdown {
     position: relative;
-    
-}
-.brew-labels {
-    display: inline;
-}
+    display: inline-block;
+    width: 33%; 
+  }
+
+  .recepie {
+      display: none;
+      position: absolute;
+      
+  }
+
+  .label, img{
+      width: 100%;
+      
+  }
+
+  .label:hover, .recepie {
+      display: block;
+   
+
+  }
