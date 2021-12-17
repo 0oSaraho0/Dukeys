@@ -29,16 +29,17 @@ header {
 
 /*navigation styling*/
 
+
     
-#menu, #heading {
+.menu, #heading {
     line-height: 150px;
 }
 
-#menu, ul {
+.menu {
     float: right;
 }
 
-#menu, li {
+.menu, li {
     display: inline-block;  
     font-size: 150%;
     letter-spacing: 5px; 
@@ -47,7 +48,7 @@ header {
 
 }
 
-#menu, a {
+.menu, a {
     text-decoration: none;
     color: inherit;
     
@@ -60,6 +61,23 @@ a:hover {
 a:hover {
   border-bottom: 1px;
 }
+
+/*about us*/
+
+#about-us {
+position: absolute;
+height 50px;
+width: 450px;
+margin-left: 50px;
+margin-top: 50px;
+font-size: 130%;
+background-color: rgba(0, 0, 0, 0.65);
+border-style:inset;
+padding: 5px;
+
+}
+
+/*background image*/
 
 #background-image {
     height: 900px;
@@ -97,6 +115,7 @@ a:hover {
 
   .label {
       transition: all linear 0.5s;
+     
   }
 
   .label:hover + .recepie {
@@ -110,4 +129,19 @@ a:hover {
       display: block;
   }
 
- 
+ /*footer*/
+
+ footer {
+    height: 150px;
+    
+
+ }
+
+ .social-networks {
+     text-align: center;
+     color:inherit;
+     font-size: 150%;
+     letter-spacing: 5px;
+     margin-bottom: 50px;
+     line-height: 150px;
+ }
