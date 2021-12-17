@@ -78,9 +78,15 @@ a:hover {
     width: 33%; 
   }
 
+  #extra-style {
+    transform: translateY(-65px);   
+  }
+
   .recepie {
-      display: none;
-      position: absolute;
+      /* display: none; */
+      position: relative;
+      transition: all linear 0.5s;
+      opacity: 0;
       
   }
 
@@ -89,8 +95,19 @@ a:hover {
       
   }
 
-  .label:hover, .recepie {
-      display: block;
+  .label {
+      transition: all linear 0.5s;
+  }
+
+  .label:hover + .recepie {
+      /* display: block; */
+      opacity: 1;
    
 
   }
+
+  .recepie:hover .recepie {
+      display: block;
+  }
+
+ 
