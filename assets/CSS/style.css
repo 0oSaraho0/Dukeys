@@ -10,7 +10,7 @@ body {
     
    font-family: Georama, sans-serif;
    font-weight: 300;
-   background-color: #171010;
+   background-color: #202020;
    color: cornsilk;
    
 }
@@ -82,7 +82,7 @@ padding: 5px;
 /*background image*/
 
 #background-image {
-    height: 80vh;
+    height: 150vh;
     width: 100%;
     background-size: cover;
     background-image: url('../images/hero-image-beer1.jpg');
@@ -102,7 +102,7 @@ padding: 5px;
     
 }
 
-/*brew labels*/
+/*brew labels
 
 .dropdown {
     position: relative;
@@ -115,7 +115,7 @@ padding: 5px;
   }
 
   .recepie {
-      /* display: none; */
+       display: none; 
       position: relative;
       transition: all linear 0.5s;
       opacity: 0;
@@ -133,7 +133,7 @@ padding: 5px;
   }
 
   .label:hover + .recepie {
-      /* display: block; */
+      /* display: block; 
       opacity: 1;
    
 
@@ -142,11 +142,11 @@ padding: 5px;
   .recepie:hover .recepie {
       display: block;
   }
-
+/*
  /*footer*/
 
  footer {
-    height: 150px;
+    height: 20px;
     
 
  }
@@ -154,8 +154,8 @@ padding: 5px;
  .social-networks {
      text-align: center;
      color:inherit;
-     font-size: 150%;
+     font-size: 50%;
      letter-spacing: 5px;
      margin-bottom: 50px;
-     line-height: 150px;
+     line-height: 50px;
  }
