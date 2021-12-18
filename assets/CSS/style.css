@@ -56,12 +56,9 @@ header {
     
 }
 
-a:hover {
+.menu a:hover {
     text-decoration: underline solid 1px;
-}
-
-a:hover {
-  border-bottom: 1px;
+    border-bottom: 1px;
 }
 
 /*about us
@@ -100,6 +97,11 @@ padding: 5px;
     padding-top: 100px;
     text-transform: lowercase;
     
+}
+
+.make-beer a:hover {
+    text-decoration: underline solid 3px;
+
 }
 
 /*brew labels
