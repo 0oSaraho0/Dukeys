@@ -181,5 +181,14 @@ padding: 5px;
 
  }
 
- 
+/*contact page background*/
+
+.form-background {
+    height: 120vh;
+    width: 100%;
+    background-size:cover;
+    background-image: url('../images/form-background.jpg');
+
+
+}
  
