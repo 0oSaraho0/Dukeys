@@ -22,8 +22,13 @@
         </nav>
     
     </header>
+    <div id="margin-fix"></div>
     <section >
        <div class="form-background">
+           <h3>
+               It is always good to hear from fellow beer lovers! Contact me below and let me know if you would like to be added to our mailing list for more beer recepies and fun.
+
+           </h3>
            <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
                <label for="first-name">First Name</label>
                <input id="first-name" class="text-input" type="text" name="first_name" required >
@@ -31,10 +36,11 @@
                <input id="second-name" class="text-input" type="text"  name="last_name" required>
                 <label for="email">Email Address</label>
                 <input id="email" class="text-input" type="email" name="email_address" required>
-                <p>Would you like to join our mailing list?</p>
-                <label for="yes">Yes Please</label>
+                <label for="message" class="message">Message</label>
+                <textarea class="text-input" name="message" id="message" cols="30" rows="10"></textarea>
+                <label for="yes">Mailing List? Yes Please</label>
                 <input id="yes" type="radio" value="yes" name="mailing-list" required>
-                <label for="no">No thank you</label>
+                <label for="no">No Thank You</label>
                 <input id="no" type="radio" value="no" name="mailing-list" required>
                 <input class="submit-button" type="submit" value="Submit">
 

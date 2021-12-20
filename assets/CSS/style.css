@@ -2,24 +2,27 @@
 
 * {
     margin: 0;
-   padding: 0;
-   border: none;
+    padding: 0;
+    border: none;
 }
 
 body {
-    
-   font-family: Georama, sans-serif;
-   font-weight: 300;
-   background-color: #202020;
-   color: cornsilk;
-   
+
+    font-family: Georama, sans-serif;
+    font-weight: 300;
+    background-color: #202020;
+    color: cornsilk;
+
 }
 
 h1 {
     font-family: "Bebas Neue";
 }
+
 header {
     height: 150px;
+    padding: 1px;
+
 }
 
 #heading {
@@ -27,13 +30,15 @@ header {
     font-size: 800%;
     margin: 20px 0 0 20px;
     float: left;
+
 }
 
 /*navigation styling*/
 
 
-    
-.menu, #heading {
+
+.menu,
+#heading {
     line-height: 150px;
 }
 
@@ -41,19 +46,21 @@ header {
     float: right;
 }
 
-.menu, li {
-    display: inline-block;  
+.menu,
+li {
+    display: inline-block;
     font-size: 150%;
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     margin-right: 50px;
-    
+
 
 }
 
-.menu, a {
+.menu,
+a {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
 .menu a:hover {
@@ -83,8 +90,8 @@ padding: 5px;
     width: 100%;
     background-size: cover;
     background-image: url('../images/hero-image-beer1.jpg');
-    
-    
+
+
 }
 
 /*tagline*/
@@ -96,7 +103,7 @@ padding: 5px;
     margin-left: 125px;
     padding-top: 100px;
     text-transform: lowercase;
-    
+
 }
 
 .make-beer a:hover {
@@ -147,66 +154,108 @@ padding: 5px;
 /*
  /*footer*/
 
- footer {
+footer {
     height: 20px;
-    
 
- }
 
- .social-networks {
-     text-align: center;
-     color:inherit;
-     font-size: 50%;
-     letter-spacing: 5px;
-     margin-bottom: 50px;
-     line-height: 50px;
- }
+}
 
- /*beer recepie cards*/
+.social-networks {
+    text-align: center;
+    color: inherit;
+    font-size: 50%;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
 
- .container {
+/*beer recepie cards*/
+
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height:80vh;
+    height: 80vh;
     width: 100%;
 
-    
+
 }
 
- .card {
-     text-align: center;
-     width:33.3%;
-     height:45%
-     
+.card {
+    text-align: center;
+    width: 33.3%;
+    height: 45%;
+    z-index: 1;
 
- }
+}
 
 .card img {
     height: 80%;
-    width:45%
-    
+    width: 45%;
+    z-index: 1;
 }
- 
+
+.card-reverse {
+    border: solid color blue;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 422.5px;
+    height: 259.76px;
+    opacity: 0;
+    background-color: rgba(32, 32, 32,);
+    z-index: 2;
+    background: rgba(32, 32, 32,);
+
+}
+
+.card-reverse ul {
+    z-index: 2;
+    background-color: rgba(32, 32, 32,);
+    background: rgba(32, 32, 32,);
+
+}
+
+.card:hover .card-reverse {
+
+    opacity: 1;
+}
 
 /*contact page background*/
 
 .form-background {
     height: 120vh;
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     background-image: url('../images/form-background.jpg');
 
 
 }
+
 .contact-form {
-    background-color:rgba(60, 60, 60, 0.6);
-    font-size: 25px;
-    margin:150px 10% 0 0;
-    max-width:350px;
-    position:absolute;
-    left:10%;
-    padding:30px;
-    
+    background-color: rgba(32, 32, 32, 0.6);
+    font-size: 15px;
+    margin: 115px 20% 0 15%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 10%;
+    color: black;
+    font-weight: bold;
 }
- 
+
+}
+
+h3 {
+    text-align: center;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.text-input {
+    width: 100%;
+    background: transparent;
+    border: solid 2px;
+    margin: 5px;
+    border-color: cornsilk;
+
+}
