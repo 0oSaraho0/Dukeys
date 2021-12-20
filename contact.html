@@ -22,11 +22,21 @@
         </nav>
     
     </header>
-    <section>
+    <section >
        <div class="form-background">
-           <form action="" method="POST">
+           <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
                <label for="first-name">First Name</label>
-               <input id="first-name" type="text">
+               <input id="first-name" class="text-input" type="text" name="first_name" required >
+               <label for="last-name">Last Name</label>
+               <input id="second-name" class="text-input" type="text"  name="last_name" required>
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required>
+                <p>Would you like to join our mailing list?</p>
+                <label for="yes">Yes Please</label>
+                <input id="yes" type="radio" value="yes" name="mailing-list" required>
+                <label for="no">No thank you</label>
+                <input id="no" type="radio" value="no" name="mailing-list" required>
+                <input class="submit-button" type="submit" value="Submit">
 
            </form>
        </div>

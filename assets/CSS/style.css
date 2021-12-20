@@ -199,4 +199,14 @@ padding: 5px;
 
 
 }
+.contact-form {
+    background-color:rgba(60, 60, 60, 0.6);
+    font-size: 25px;
+    margin:150px 10% 0 0;
+    max-width:350px;
+    position:absolute;
+    left:10%;
+    padding:30px;
+    
+}
  
