@@ -46,12 +46,11 @@ header {
     float: right;
 }
 
-.menu,
-li {
+.menu > li {
     display: inline-block;
     font-size: 150%;
     letter-spacing: 5px;
-    margin-right: 50px;
+    margin-right: 20px;
 
 
 }
@@ -150,26 +149,9 @@ padding: 5px;
 
   .recepie:hover .recepie {
       display: block;
-  }
-/*
- /*footer*/
+  }*/
 
-footer {
-    height: 20px;
-
-
-}
-
-.social-networks {
-    text-align: center;
-    color: inherit;
-    font-size: 50%;
-    letter-spacing: 5px;
-    margin-bottom: 50px;
-    line-height: 50px;
-}
-
-/*beer recepie cards*/
+ /*beer recepie cards*/
 
 .container {
     display: flex;
@@ -177,44 +159,49 @@ footer {
     flex-wrap: wrap;
     height: 80vh;
     width: 100%;
-
-
 }
 
 .card {
     text-align: center;
     width: 33.3%;
     height: 45%;
-    z-index: 1;
+    z-index: auto;
 
 }
 
 .card img {
     height: 80%;
     width: 45%;
-    z-index: 1;
+    border: 2px white;
+    border-radius: 10px;
+    
 }
 
 .card-reverse {
-    border: solid color blue;
-    position: absolute;
+    display: flex;
+    position: relative;
     text-align: center;
-    top: 25%;
+    top: -100%;
+    left: 10%;
     width: 422.5px;
     height: 259.76px;
     opacity: 0;
-    background-color: rgba(32, 32, 32,);
     z-index: 2;
-    background: rgba(32, 32, 32,);
+    
 
 }
 
-.card-reverse ul {
+.card-reverse > ul {
     z-index: 2;
-    background-color: rgba(32, 32, 32,);
-    background: rgba(32, 32, 32,);
+    inherits: unset;
+    font-size: 12px;
+    list-style-type: none;
+    background-color: #202020;
+    border: solid cornsilk;
+    border-radius: 10px;
 
 }
+
 
 .card:hover .card-reverse {
 
@@ -243,12 +230,12 @@ footer {
     font-weight: bold;
 }
 
-}
 
-h3 {
+.form-background > h3 {
     text-align: center;
     width: 30%;
-    margin-top: 50px;
+    position: relative;
+    top: 100px;
 }
 
 .text-input {
@@ -259,3 +246,21 @@ h3 {
     border-color: cornsilk;
 
 }
+/*footer*/
+
+footer {
+    height: 20px;
+
+
+}
+
+.social-networks {
+    inherits:unset;
+    text-align: center;
+    color: inherit;
+    font-size: 50%;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
