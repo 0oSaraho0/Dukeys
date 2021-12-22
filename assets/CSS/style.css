@@ -21,7 +21,7 @@ h1 {
 
 header {
     height: 150px;
-    padding: 1px;
+    ;
 
 }
 
@@ -251,18 +251,19 @@ padding: 5px;
 /*footer*/
 
 footer {
-    height: 20px;
+    height: 20%;
 
 
 }
 
 .social-networks {
     inherits:unset;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
     color: inherit;
-    font-size: 50%;
-    letter-spacing: 5px;
-    margin-bottom: 50px;
-    line-height: 50px;
+    font-size: 25px;
+   
 }
+
 
