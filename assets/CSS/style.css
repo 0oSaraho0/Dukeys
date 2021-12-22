@@ -251,7 +251,12 @@ padding: 5px;
 /*footer*/
 
 footer {
-    height: 20%;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #202020;
+  color: cornsilk;
 
 
 }
@@ -267,3 +272,7 @@ footer {
 }
 
 
+.social-networks a:hover {
+    background-color: cornsilk;
+    color: #202020;
+}
