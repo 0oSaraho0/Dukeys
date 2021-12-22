@@ -40,3 +40,11 @@ I felt the site needed a clean feel to it. I have decided to go for a simple col
 ### Typography
 
 I have used the fonts 
+
+
+
+
+
+# references
+
+I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto/howto_css_fixed_footer.asp

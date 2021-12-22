@@ -21,7 +21,7 @@ h1 {
 
 header {
     height: 150px;
-    ;
+    
 
 }
 
@@ -30,6 +30,8 @@ header {
     font-size: 800%;
     margin: 20px 0 0 20px;
     float: left;
+    vertical-align: middle;
+
 
 }
 
@@ -39,11 +41,14 @@ header {
 
 .menu,
 #heading {
-    line-height: 150px;
+    margin-top: 0;
 }
 
 .menu {
     float: right;
+    margin-right: 8%;
+    margin-top: 4%;
+
 }
 
 .menu > li {
