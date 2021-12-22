@@ -4,7 +4,7 @@
 
 Please click here for the live project
 
-This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his recepies pictures and home brewing ideas and have a space for other home brewing enthusiasts to be able to make contact and subascribe .
+This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his recepies pictures and home brewing ideas and have a space for other home brewing enthusiasts to be able to make contact and subscribe .
 
 
 # User Experience (UX)

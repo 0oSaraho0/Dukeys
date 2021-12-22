@@ -231,11 +231,13 @@ padding: 5px;
 }
 
 
-.form-background > h3 {
+.form-background > h2 {
     text-align: center;
     width: 30%;
     position: relative;
-    top: 100px;
+    top: 7%;
+    left: 14%;
+    color: black;
 }
 
 .text-input {
