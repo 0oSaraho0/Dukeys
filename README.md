@@ -4,7 +4,7 @@
 
 Please click here for the live project
 
-This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his recepies pictures and home brewing ideas and have a space for other home brewing enthusiasts to be able to contact each other.
+This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his recepies pictures and home brewing ideas and have a space for other home brewing enthusiasts to be able to make contact and subascribe .
 
 
 # User Experience (UX)
@@ -26,16 +26,17 @@ we rated these goals on a scale of 1 to 5 in importance and feesability
 - pictures                    3--5
 
 
-After looking at the feesability of the goals we decided to go ahead with making the website but to leave out the blogging page for the initial update.  My skills as a developer are not quite at that stage yet and the owner does not want to do that right away anyway.  we also decided that the galary page woud be nice depending on how much time we had to impliment it.#
+After looking at the feesability of the goals we decided to go ahead with making the website but to leave out the blogging page for the initial update.  My skills as a developer are not quite at that stage yet and the owner does not want to do that right away anyway.  
 
 With this in mind we decided to go for a front page with a link to his recepies and a contact page.
 
-He provided me with the recepies, his beer labels and a picture of some brewing equipement that he thoguht was really nice to include in website.
 
 ### Colour Scheme
 
-I have gone for a simple black white and grey colour scheme
+    
+    
+I felt the site needed a clean feel to it. I have decided to go for a simple colour scheme of  #202020 and #fff8dc to facilitate this.
 
 ### Typography
 
-I have used the 
+I have used the fonts 
