@@ -21,7 +21,7 @@ h1 {
 }
 
 header {
-    height: 150px;
+    height: 20vh;
     
 
 }
@@ -29,7 +29,7 @@ header {
 #heading {
     color: cornsilk;
     font-size: 800%;
-    margin: 20px 0 0 20px;
+    margin: 10% 0 0 2%;
     float: left;
     vertical-align: middle;
 
@@ -54,7 +54,7 @@ header {
 
 .menu > li {
     display: inline-block;
-    font-size: 150%;
+    font-size: 175%;
     letter-spacing: 5px;
     margin-right: 20px;
 
@@ -292,5 +292,54 @@ footer {
     background-color: cornsilk;
     color: #202020;
 }
+/*media queries*/
+
+/*For larger screens to medium screens.  Ffrom 1200px wide and down*/
+
+/*header*/
+
+@media screen and (max-width: 1200px) {
+    #heading {
+        font-size: 700%;
+        
+    }
+    .menu > li {
+        font-size: 150%;
+    }
+    heading {
+       height: 15vh;
+    }
+    
+}
 
 
+/*for medim to small screens from 1020px wide and down*/
+
+/*header*/
+
+@media screen and (max-width: 1045px) {
+    .menu > li {
+        font-size: 100%;
+    }
+    #heading {
+        font-size: 550%;
+    }
+    .menu {
+        margin-right: 0;
+    }
+
+    
+    
+}
+ /*small screens 750px and smaller*/
+
+ @media screen and (max-width: 750px) {
+     .menu {
+        float: left;
+        margin-left: 2%;
+     }
+     
+     #heading {
+         font-size: 400%;
+     }
+ }
