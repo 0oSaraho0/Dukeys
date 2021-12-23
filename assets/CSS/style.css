@@ -73,28 +73,15 @@ a {
     border-bottom: 1px;
 }
 
-/*about us
-
-#about-us {
-position: absolute;
-height 50px;
-width: 450px;
-margin-left: 50px;
-margin-top: 50px;
-font-size: 130%;
-background-color: rgba(0, 0, 0, 0.65);
-border-style:inset;
-padding: 5px;
-
-}
-*/
 /*background image*/
 
 #background-image {
-    height: 100vh;
+   height: 120vh;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-image: url('../images/hero-image-beer1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
 
 
 }
@@ -102,7 +89,7 @@ padding: 5px;
 /*tagline*/
 
 .make-beer {
-    font-size: 80px;
+    font-size: 390%;
     font-style: italic;
     width: 25%;
     margin-left: 125px;
@@ -114,47 +101,6 @@ padding: 5px;
     text-decoration: underline solid 3px;
 
 }
-
-/*brew labels
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    width: 33%; 
-  }
-
-  #extra-style {
-    transform: translateY(-65px);   
-  }
-
-  .recepie {
-       display: none; 
-      position: relative;
-      transition: all linear 0.5s;
-      opacity: 0;
-      
-  }
-
-  .label, img{
-      width: 100%;
-      
-  }
-
-  .label {
-      transition: all linear 0.5s;
-     
-  }
-
-  .label:hover + .recepie {
-      /* display: block; 
-      opacity: 1;
-   
-
-  }
-
-  .recepie:hover .recepie {
-      display: block;
-  }*/
 
  /*beer recepie cards*/
 
@@ -294,7 +240,7 @@ footer {
 }
 /*media queries*/
 
-/*For larger screens to medium screens.  Ffrom 1200px wide and down*/
+/*For larger screens to medium screens. From 1200px wide and down*/
 
 /*header*/
 
@@ -309,7 +255,12 @@ footer {
     heading {
        height: 15vh;
     }
-    
+
+    /*background and tagline*/
+
+    .make-beer {
+        font-size: 330%;
+    }
 }
 
 
@@ -328,7 +279,13 @@ footer {
         margin-right: 0;
     }
 
-    
+
+/*background image*/
+
+.make-beer {
+    font-size: 280%;
+}
+
     
 }
  /*small screens 750px and smaller*/
@@ -342,4 +299,13 @@ footer {
      #heading {
          font-size: 400%;
      }
- }
+
+     #background-image {
+         height:79vh;
+     }
+     .make-beer {
+        width: 57%;
+        margin-left: 15px;
+        padding-top: 0px;
+     }
+ } 
