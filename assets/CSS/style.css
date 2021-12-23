@@ -8,7 +8,7 @@
 
 body {
 
-    font-family: Georama, sans-serif;
+    font-family: Georama, georgia, sans-serif;
     font-weight: 300;
     background-color: #202020;
     color: cornsilk;
@@ -16,7 +16,8 @@ body {
 }
 
 h1 {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", Helvetica, serif ;
+
 }
 
 header {
@@ -262,7 +263,7 @@ padding: 5px;
     border: 2px;
     border-color: cornsilk;
 }
-}
+
 /*footer*/
 
 footer {
@@ -291,3 +292,5 @@ footer {
     background-color: cornsilk;
     color: #202020;
 }
+
+
