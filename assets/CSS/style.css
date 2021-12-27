@@ -330,6 +330,11 @@ footer {
         margin-left: 45px;
         padding-top: 0px;
      }
+
+     .social-networks {
+         font-size: 24px;
+     }
+
      /*recepie page*/
 
 .card {
@@ -346,15 +351,19 @@ footer {
 @media screen and (max-width: 400px) {
     #heading {
         font-size: 399%; 
+      
     }  
     .menu > li {
-        font-size: 117%;
+        font-size: 105%;
     }
     .card {
         font-size: 170%;
     }
     .social-networks {
         font-size: 17px;
+    }
+    .make-beer {
+        font-size: 160%;
     }
 }
     
