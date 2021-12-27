@@ -285,12 +285,16 @@ footer {
 .make-beer {
     font-size: 280%;
 }
+/*recepie page*/
 
+.card {
+    width:50%
+}
     
 }
  /*small screens 750px and smaller*/
 
- @media screen and (max-width: 750px) {
+ @media screen and (max-width: 755px) {
      .menu {
         float: left;
         margin-left: 2%;
@@ -298,6 +302,7 @@ footer {
      
      #heading {
          font-size: 400%;
+         
      }
 
      #background-image {
@@ -308,4 +313,9 @@ footer {
         margin-left: 15px;
         padding-top: 0px;
      }
+     /*recepie page*/
+
+.card {
+    width:50%
+}
  } 
