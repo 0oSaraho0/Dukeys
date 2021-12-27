@@ -267,15 +267,15 @@ footer {
 
     .make-beer {
         width: 31%
-    /*    font-size: 330%;*/
     }
     #background-image {
         height:90vh;
     }
+    
+    .card-reverse {
+        width: 308.5px;
+    }
 }
-
-
-
 
 /*for medim to small screens from 1045px wide and down*/
 
@@ -301,12 +301,19 @@ footer {
 .card {
     width:50%
 }
+.card-reverse {
+    width: 402.5px;
+    height: 253.76px;
+}
+}
     /* small media query screens smaller than 950px*/
 
 @media screen and (max-width: 950px) {
     #heading {
         font-size: 550%;
 }
+.card-reverse {
+    width: 366.5px;
 
 }
 }
@@ -338,33 +345,70 @@ footer {
      /*recepie page*/
 
 .card {
-    width:50%
-}
+        height: 26vh;
+        width: 50%;
  } 
+ .card-reverse {
+    width: 305.5px;
+    height: 184.76px;
+}
+.card-reverse > ul {
+    font-size: 9.5px;
+}
+ }
 @media screen and (max-width: 562px) {
     .make-beer {
         font-size: 188%;
         padding-top: 33px;
     }
+    .card {
+        width: 100%;
+        height: 33vh;
+ } 
+    .card-reverse {
+        width: 449.5px;
+        height: 240.76px;
+    }
+
+    .card-reverse > ul {
+        font-size: 9px;
+    }
+ 
     
 }
+
+
+ @media screen and (max-width:479px ) {
+     .card-reverse {
+         width: 373.5px;
+     }
+ }   
+
+
 @media screen and (max-width: 400px) {
     #heading {
-        font-size: 399%; 
-      
+        font-size: 399%;      
     }  
+
     .menu > li {
         font-size: 105%;
     }
+
     .card {
-        font-size: 170%;
+        width: 100%;
+        height:25 vh;
     }
+
+    .card-reverse {
+        width: 298.5px;
+        height: 218.76px;
+    }
+
     .social-networks {
         font-size: 17px;
     }
+
     .make-beer {
         font-size: 160%;
     }
 }
-    
-    
