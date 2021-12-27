@@ -7,23 +7,18 @@
 }
 
 body {
-
     font-family: Georama, georgia, sans-serif;
     font-weight: 300;
     background-color: #202020;
     color: cornsilk;
-
 }
 
 h1 {
-    font-family: "Bebas Neue", Helvetica, serif ;
-
+    font-family: "Bebas Neue", Helvetica, serif;
 }
 
 header {
     height: 20vh;
-    
-
 }
 
 #heading {
@@ -32,13 +27,9 @@ header {
     margin: 10% 0 0 2%;
     float: left;
     vertical-align: middle;
-
-
 }
 
 /*navigation styling*/
-
-
 
 .menu,
 #heading {
@@ -49,23 +40,19 @@ header {
     float: right;
     margin-right: 8%;
     margin-top: 4%;
-
 }
 
-.menu > li {
+.menu>li {
     display: inline-block;
     font-size: 175%;
     letter-spacing: 5px;
     margin-right: 20px;
-
-
 }
 
 .menu,
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 .menu a:hover {
@@ -76,14 +63,12 @@ a {
 /*background image*/
 
 #background-image {
-   height: 120vh;
+    height: 120vh;
     width: 100%;
     background-size: cover;
     background-image: url('../images/hero-image-beer1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-
-
 }
 
 /*tagline*/
@@ -94,15 +79,13 @@ a {
     width: 25%;
     margin-left: 125px;
     padding-top: 100px;
-
 }
 
 .make-beer a:hover {
     text-decoration: underline solid 3px;
-
 }
 
- /*beer recepie cards*/
+/*beer recipe cards*/
 
 .container {
     display: flex;
@@ -117,7 +100,6 @@ a {
     width: 33.3%;
     height: 45%;
     z-index: auto;
-
 }
 
 .card img {
@@ -125,7 +107,6 @@ a {
     width: 45%;
     border: 2px white;
     border-radius: 10px;
-    
 }
 
 .card-reverse {
@@ -138,11 +119,9 @@ a {
     height: 259.76px;
     opacity: 0;
     z-index: 2;
-    
-
 }
 
-    .card-reverse > ul {
+.card-reverse>ul {
     z-index: 2;
     inherits: unset;
     font-size: 12px;
@@ -150,45 +129,45 @@ a {
     background-color: #202020;
     border: solid cornsilk;
     border-radius: 10px;
-
 }
 
-
 .card:hover .card-reverse {
-
     opacity: 1;
 }
 
-/*contact page background*/
+/*contact page */
 
 .form-background {
+    display: flex;
     height: 120vh;
     width: 100%;
     background-size: cover;
     background-image: url('../images/form-background.jpg');
-
-
 }
 
 .contact-form {
+    display: flexbox;
     background-color: rgba(32, 32, 32, 0.6);
     font-size: 15px;
-    margin: 115px 20% 0 15%;
+    margin: 210px 35% 0 -15%;
     max-width: 350px;
     padding: 30px;
     border-radius: 10%;
     color: black;
     font-weight: bold;
+    color: cornsilk;
+    height: fit-content;
 }
 
-
-.form-background > h2 {
+.form-background>h2 {
+    display: flex;
     text-align: center;
     width: 30%;
     position: relative;
     top: 7%;
     left: 14%;
     color: black;
+    height: fit-content;
 }
 
 .text-input {
@@ -197,7 +176,7 @@ a {
     border: solid 2px;
     margin: 5px;
     border-color: cornsilk;
-
+    color: cornsilk;
 }
 
 .submit-button {
@@ -218,34 +197,28 @@ a {
 
 footer {
     position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #202020;
-  color: cornsilk;
-
-
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202020;
+    color: cornsilk;
 }
 
 .social-networks {
-    inherits:unset;
+    inherits: unset;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     color: inherit;
-    font-size: 30px;
-   
+    font-size: 20px;
 }
-
 
 .social-networks a:hover {
     background-color: cornsilk;
     color: #202020;
 }
+
 /*media queries*/
-
-
-
 
 /*For larger screens to medium screens. From 1185px wide and down*/
 
@@ -254,13 +227,15 @@ footer {
 @media screen and (max-width: 1185px) {
     #heading {
         font-size: 700%;
-        
+
     }
-    .menu > li {
+
+    .menu>li {
         font-size: 150%;
     }
+
     heading {
-       height: 15vh;
+        height: 15vh;
     }
 
     /*background and tagline*/
@@ -268,10 +243,13 @@ footer {
     .make-beer {
         width: 31%
     }
+
     #background-image {
-        height:90vh;
+        height: 90vh;
     }
-    
+
+    /*recepie page*/
+
     .card-reverse {
         width: 308.5px;
     }
@@ -282,121 +260,151 @@ footer {
 /*header*/
 
 @media screen and (max-width: 1045px) {
-    .menu > li {
+    .menu>li {
         font-size: 150%;
     }
-    
+
     .menu {
         margin-right: 0;
     }
 
+    /*home page*/
 
-.make-beer {
-    font-size: 280%;
-}
-#background-image {
-    height:79vh;
+    .make-beer {
+        font-size: 280%;
+    }
+
+    #background-image {
+        height: 79vh;
+    }
+
+    /*recepie page*/
+
+    .card {
+        width: 50%
+    }
+
+    .card-reverse {
+        width: 402.5px;
+        height: 253.76px;
+    }
 }
 
-.card {
-    width:50%
-}
-.card-reverse {
-    width: 402.5px;
-    height: 253.76px;
-}
-}
-    /* small media query screens smaller than 950px*/
+/* small media query screens smaller than 950px*/
 
 @media screen and (max-width: 950px) {
+
+    /*header*/
+
     #heading {
         font-size: 550%;
-}
-.card-reverse {
-    width: 366.5px;
+    }
 
-}
-}
- /*small screens 836px and smaller*/
+    /*recepie page*/
 
- @media screen and (max-width: 836px) {
-     .menu {
+    .card-reverse {
+        width: 366.5px;
+
+    }
+}
+
+/*small screens 836px and smaller*/
+
+@media screen and (max-width: 836px) {
+
+    /*header*/
+
+    .menu {
         float: left;
         margin-left: 2%;
         margin-top: -1%;
-     }
-     
-     
-     #heading {
-         font-size: 500%;
-         
-     }
+    }
 
-     .make-beer {
+
+    #heading {
+        font-size: 500%;
+
+    }
+
+    /*tagline*/
+
+    .make-beer {
         width: 38%;
         margin-left: 45px;
         padding-top: 0px;
-     }
+    }
 
-     .social-networks {
-         font-size: 24px;
-     }
+    /*recepie page*/
 
-     /*recepie page*/
-
-.card {
+    .card {
         height: 26vh;
         width: 50%;
- } 
- .card-reverse {
-    width: 305.5px;
-    height: 184.76px;
+    }
+
+    .card-reverse {
+        width: 305.5px;
+        height: 184.76px;
+    }
+
+    .card-reverse>ul {
+        font-size: 9.5px;
+    }
 }
-.card-reverse > ul {
-    font-size: 9.5px;
-}
- }
+
+/*media query for screens smaller than 562px*/
+
 @media screen and (max-width: 562px) {
     .make-beer {
         font-size: 188%;
         padding-top: 33px;
     }
+
     .card {
         width: 100%;
         height: 33vh;
- } 
+    }
+
     .card-reverse {
         width: 449.5px;
         height: 240.76px;
     }
 
-    .card-reverse > ul {
+    .card-reverse>ul {
         font-size: 9px;
     }
- 
-    
 }
 
+@media screen and (max-width:479px) {
+    .card-reverse {
+        width: 373.5px;
+    }
+}
 
- @media screen and (max-width:479px ) {
-     .card-reverse {
-         width: 373.5px;
-     }
- }   
-
+/*media query for screens smaller than 400px*/
 
 @media screen and (max-width: 400px) {
-    #heading {
-        font-size: 399%;      
-    }  
 
-    .menu > li {
+    /*header*/
+
+    #heading {
+        font-size: 399%;
+    }
+
+    .menu>li {
         font-size: 105%;
     }
 
+    /*tagline*/
+
+    .make-beer {
+        font-size: 160%;
+    }
+
+    /*recipe page*/
+
     .card {
         width: 100%;
-        height:25 vh;
+        height: 25 vh;
     }
 
     .card-reverse {
@@ -404,11 +412,11 @@ footer {
         height: 218.76px;
     }
 
+    /*footer*/
+
     .social-networks {
         font-size: 17px;
     }
 
-    .make-beer {
-        font-size: 160%;
-    }
+
 }

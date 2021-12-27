@@ -89,3 +89,10 @@ The recipes have a white boarder arround them to give them a nice finish that ma
 
 I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto/howto_css_fixed_footer.asp
 
+
+
+# Existing Bugs
+
+on media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
+
+The footer on the recipe page overlaps with the names of the beers at the bottom.  I have made a small fix just by making the footer text smaller but this does not really fix the problem.  
