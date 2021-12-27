@@ -96,3 +96,16 @@ I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto
 on media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
 
 The footer on the recipe page overlaps with the names of the beers at the bottom.  I have made a small fix just by making the footer text smaller but this does not really fix the problem.  
+
+
+
+# Testing
+
+I have tested all links to ensure that they work correctly.
+All social media links open to the correct web page in a new web page.
+
+I used https://wave.webaim.org/ to test the accessibility of my website.  It showed 2 error on my recipe page, both of wich were empty headings.  After checking my code I had not closed the closing tags.
+
+
+
+
