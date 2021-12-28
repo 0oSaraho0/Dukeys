@@ -104,7 +104,13 @@ The footer on the recipe page overlaps with the names of the beers at the bottom
 I have tested all links to ensure that they work correctly.
 All social media links open to the correct web page in a new web page.
 
-I used https://wave.webaim.org/ to test the accessibility of my website.  It showed 2 error on my recipe page, both of wich were empty headings.  After checking my code I had not closed the closing tags.
+I used https://wave.webaim.org/ to test the accessibility of my website.  
+![Wave Test](assets/images/wave-test-1.jpg)
+
+It showed 2 errors on my recipe page, both of which were empty headings.  After checking my code I had not closed the closing tags.  This was an easy fix
+
+It also showed errors because my headings were not flowing properly.  I had used h1s on my recepies when i should have used h2s.  this again was an easy fix
+
 
 
 
