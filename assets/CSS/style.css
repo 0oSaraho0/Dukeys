@@ -139,6 +139,10 @@ a {
 
 .form-background {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 12%;
     height: 120vh;
     width: 100%;
     background-size: cover;
@@ -149,7 +153,6 @@ a {
     display: flexbox;
     background-color: rgba(32, 32, 32, 0.6);
     font-size: 15px;
-    margin: 210px 35% 0 -15%;
     max-width: 350px;
     padding: 30px;
     border-radius: 10%;
@@ -160,12 +163,12 @@ a {
 }
 
 .form-background>h2 {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2%;
     display: flex;
     text-align: center;
-    width: 30%;
-    position: relative;
-    top: 7%;
-    left: 14%;
+    width: 34%;
     color: black;
     height: fit-content;
 }
@@ -253,6 +256,10 @@ footer {
     .card-reverse {
         width: 308.5px;
     }
+
+    .form-background>h2 {
+        width: 40%;
+    }
 }
 
 /*for medim to small screens from 1045px wide and down*/
@@ -288,6 +295,10 @@ footer {
         width: 402.5px;
         height: 253.76px;
     }
+
+.form-background>h2 {
+    width: 50%;
+}
 }
 
 /* small media query screens smaller than 950px*/
@@ -304,7 +315,15 @@ footer {
 
     .card-reverse {
         width: 366.5px;
+    }
 
+    /*Contact page*/
+    
+    .form-background>h2 {
+        width: 47%;
+    }
+    .form-background {
+        height: unset;
     }
 }
 
@@ -312,7 +331,7 @@ footer {
 
 @media screen and (max-width: 836px) {
 
-    /*header*/
+    /*header 836px*/
 
     .menu {
         float: left;
@@ -326,7 +345,7 @@ footer {
 
     }
 
-    /*tagline*/
+    /*tagline 836px*/
 
     .make-beer {
         width: 38%;
@@ -334,7 +353,7 @@ footer {
         padding-top: 0px;
     }
 
-    /*recipe page*/
+    /*recipe page 836px*/
 
     .card {
         height: 26vh;
@@ -349,15 +368,39 @@ footer {
     .card-reverse>ul {
         font-size: 9.5px;
     }
+
+    /*contact page 836px*/
+
+    .form-background {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height:unset;
+        padding-left: 10%;
+    }
+
+    .form-background>h2 {
+        width: 60%;
+        position: unset;
+    }
+
+    .contact-form {
+        margin: 0;
+    }
+
 }
 
 /*media query for screens smaller than 562px*/
 
 @media screen and (max-width: 562px) {
+
+    /*tagline 562px*/
     .make-beer {
         font-size: 188%;
         padding-top: 33px;
     }
+
+    /*reipe page 562px*/
 
     .card {
         width: 100%;
@@ -372,19 +415,62 @@ footer {
     .card-reverse>ul {
         font-size: 9px;
     }
+
+    /*contact page 562px*/
+    
+    .form-background {
+        flex-direction: column;
+        height: unset;
+        padding-left: 5%;
+    }
+    
+    .contact-form {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .form-background>h2 {
+       justify-content: center;
+       align-items: center;
+       top: 0;
+       width: 84%;
+       left: 0;
+       margin: 0;
+       
+    }
 }
+
+/*small media query for sreens smaller than 479px*/
+
+/*recipe page 479px*/
 
 @media screen and (max-width:479px) {
     .card-reverse {
         width: 373.5px;
     }
+
+/*contact page 479*/
+
+.form-background {
+    padding-left: 0;
+}
+
+.form-background>h2 {
+    width: 100%;
+}
+.contact-form {
+    max-width: unset;
+}
+
 }
 
 /*media query for screens smaller than 400px*/
 
 @media screen and (max-width: 400px) {
 
-    /*header*/
+    /*header 400px*/
 
     #heading {
         font-size: 399%;
@@ -394,13 +480,13 @@ footer {
         font-size: 105%;
     }
 
-    /*tagline*/
+    /*tagline 400px*/
 
     .make-beer {
         font-size: 160%;
     }
 
-    /*recipe page*/
+    /*recipe page 400px*/
 
     .card {
         width: 100%;
@@ -412,7 +498,29 @@ footer {
         height: 218.76px;
     }
 
-    /*footer*/
+    /*contact page 400px*/
+
+    .form-background {
+        flex-direction: column;
+        height:unset;
+    }
+
+    .contact-form {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .form-background>h2 {
+       justify-content: center;
+       align-items: center;
+       top: 0;
+       width: 100%;
+       left: 0;
+       margin-left: 0;
+       
+    }
+    /*footer 400px*/
 
     .social-networks {
         font-size: 17px;
