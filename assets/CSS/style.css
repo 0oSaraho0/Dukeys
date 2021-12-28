@@ -102,6 +102,11 @@ a {
     z-index: auto;
 }
 
+.card>h2 {
+    font-family: "Bebas Neue", Helvetica, serif;
+
+}
+
 .card img {
     height: 80%;
     width: 45%;
