@@ -130,4 +130,11 @@ The wave test on my contact page showed a contrast error with my h2.  This was b
 
 My home page showed zero errors.
 
+Next I tested the site with The W3C CSS Validation Service.
+
+It found the following errors
+
+![w3c Test](assets/images/w3c-validation.PNG)
+
+I have been through my code and corrected all of the errors stated.  Only the last error caused me to complete an extr small fix on the size of the recipe hover card to go with it.
 
