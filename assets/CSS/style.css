@@ -17,6 +17,7 @@ h1 {
     font-family: "Bebas Neue", Helvetica, serif;
 }
 
+/*Header*/
 header {
     height: 20vh;
 }
@@ -93,7 +94,7 @@ a {
     flex-wrap: wrap;
     width: 100%;
 }
-
+/*card fronts*/
 .card {
     text-align: center;
     width: 33.3%;
@@ -112,6 +113,7 @@ a {
     border: 2px white;
     border-radius: 10px;
 }
+/*recipe hovers*/
 
 .card-reverse {
     display: flex;
@@ -229,9 +231,8 @@ footer {
 
 /*For larger screens to medium screens. From 1185px wide and down*/
 
-/*header*/
-
 @media screen and (max-width: 1185px) {
+    /*header 1185px*/
     #heading {
         font-size: 700%;
     }
@@ -244,7 +245,7 @@ footer {
         height: 15vh;
     }
 
-    /*background and tagline*/
+    /*background and tagline 1185px*/
 
     .make-beer {
         width: 31%
@@ -254,7 +255,7 @@ footer {
         height: 90vh;
     }
 
-    /*recepie page*/
+    /*recipe page 1185px*/
 
     .card {
         height: 34vh;
@@ -263,6 +264,7 @@ footer {
     .card-reverse {
         width: 308.5px;
     }
+/*contact page 1185px*/
 
     .form-background>h2 {
         width: 40%;
@@ -274,6 +276,7 @@ footer {
 /*header*/
 
 @media screen and (max-width: 1045px) {
+    /*header 1045px*/
     .menu>li {
         font-size: 150%;
     }
@@ -282,7 +285,7 @@ footer {
         margin-right: 0;
     }
 
-    /*home page*/
+    /*home page 1045px*/
 
     .make-beer {
         font-size: 280%;
@@ -292,7 +295,7 @@ footer {
         height: 79vh;
     }
 
-    /*recepie page*/
+    /*recipe page 1045px*/
 
     .card {
         width: 50%;
@@ -303,6 +306,7 @@ footer {
         width: 402.5px;
         height: 253.76px;
     }
+/*Contact Page 1045px*/
 
 .form-background>h2 {
     width: 50%;
@@ -319,7 +323,7 @@ footer {
         font-size: 550%;
     }
 
-    /*recepie page*/
+    /*recipe page*/
 
     .card-reverse {
         width: 366.5px;
@@ -413,7 +417,7 @@ footer {
         padding-top: 33px;
     }
 
-    /*reipe page 562px*/
+    /*recipe page 562px*/
 
     .card {
         width: 100%;
