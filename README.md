@@ -2,7 +2,7 @@
 
 # DUKEY'S BREWS
 
- (pic of screens here)
+![Meda Screens](assets/images/meda-screens.PNG)
 
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
@@ -244,6 +244,12 @@ I have been through my code and corrected all of the errors stated.  Only the la
 Homepage lighthouse test
 
 ![trafficlight Test](assets/images/lighthouse-home.PNG)
+
+Recipe Page test
+
+![trafficlight Test](assets/images/lighthouse-recipe.PNG)
+
+This recipe page was quite a bit of work to pass this test.  I had to resize all of my beer glass pictures and swap two that were poor quality for higher resolution pictures.
 
 
 Contact Page Test
