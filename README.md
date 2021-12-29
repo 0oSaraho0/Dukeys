@@ -98,13 +98,16 @@ on media query 836px the nav bar doesn't float left in time and goes to the top 
 The footer on the recipe page overlaps with the names of the beers at the bottom.  I have made a small fix just by making the footer text smaller but this does not really fix the problem.  
 
 
+# Fixed bug.  
 
-
+I found an error with my recipe cards on small divices. Width of the recipe hover box was not getting smaller as I had indicated.
+I inspected the code below and found a typo error gpx instead of px.
+~~~
 .card-reverse {
         width: 266gpx;
         height: 218.76px;
     }
-
+~~~
 
 
 # Testing
@@ -123,5 +126,8 @@ It also showed errors because my headings were not flowing properly.  I had used
 
 The wave test on my contact page showed a contrast error with my h2.  This was because the image background color was #202020.  To correct this error I changed the background colour for the picture to Amber.  I picked Amber because it is beer coloured.
 
+![Wave Test](assets/images/wave-test-home.png)
+
+My home page showed zero errors.
 
 
