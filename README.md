@@ -2,7 +2,7 @@
 
 # DUKEY'S BREWS
 
-![Meda Screens](assets/images/meda-screens.PNG)
+![Meda Screens](assets/images/meda-screens.png)
 
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
@@ -60,14 +60,13 @@ I also went for Amber as the image background colour in case the image doesnt lo
 
 ### Typography
 
-I have used the fonts bebas Neue for my h1 as it is bold and eye catching and clean looking.
+I have used the fonts bebas Neue for my h1 and h2s on my recipe cards as it is bold, eye catching and clean looking.
 I have used Georama for the rest of the font because it also has a clean look and is easy to read.
 I used Helvetica and Georgia for my back up fonts because they look similar.
 
-
 ### Imagery
 
-The images used on the home and contact pages are inviting for thirsty beer enthusiasts that get excited over a refreshing pint of beer.  I used beer glasses on the recepie page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.
+The images used on the home and contact pages are inviting for thirsty beer enthusiasts that get excited over a refreshing pint of beer.  I used beer glasses on the recipe page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.
 
 The recipes have a white boarder arround them to give them a nice finish that matches the edge of the pictures. both picutes and recepies have a 10px radius to give nice rounded corners.
 
@@ -237,27 +236,27 @@ Next I tested the site with The W3C CSS Validation Service.
 
 It found the following errors
 
-![w3c Test](assets/images/w3c-validation.PNG)
+![w3c Test](assets/images/w3c-validation.png)
 
 I have been through my code and corrected all of the errors stated.  Only the last error caused me to complete an extr small fix on the size of the recipe hover card to go with it. I now have zero errors as shown below.
 
-![w3c Test](assets/images/correct-w3c.PNG)
+![w3c Test](assets/images/correct-w3c.png)
 
 ### Lighthouse Tests
 
 Homepage lighthouse test
 
-![trafficlight Test](assets/images/lighthouse-home.PNG)
+![trafficlight Test](assets/images/lighthouse-home.png)
 
 Recipe Page test
 
-![trafficlight Test](assets/images/lighthouse-recipe.PNG)
+![trafficlight Test](assets/images/lighthouse-recipe.png)
 
 This recipe page was quite a bit of work to pass this test.  I had to resize all of my beer glass pictures and swap two that were poor quality for higher resolution pictures.
 
 
 Contact Page Test
 
-![lighthouse test](assets/images/lighthouse-contact.PNG)
+![lighthouse test](assets/images/lighthouse-contact.png)
 
 
