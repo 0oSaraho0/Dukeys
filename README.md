@@ -7,7 +7,9 @@
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
 
-This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his recepies and home brewing ideas and have a space for other home brewing enthusiasts to be able to make contact and subscribe to his news letter.
+# About
+
+This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his home brew recepies and home brewing ideas and have a space for other home brewing enthusiasts to be able to make contact and subscribe to his news letter.
 
 
 # User Experience (UX)
@@ -49,10 +51,12 @@ After going over the wireframes with the website owner we decided to go with bee
 
 ### Colour Scheme
 
-The owner wanted a mansculine feel the page and I felt the site needed a clean look to it. I have decided to go for a simple colour scheme of  #202020 and #fff8dc to facilitate this.
-
+The owner wanted a masculine feel to the page, and I felt the site needed a clean look to it. I have decided to go for a simple colour scheme of  #202020 and #fff8dc to facilitate this.  
 ![#202020](assets/images/202020.png)
 ![#fff8dc](assets/images/fff8dc.png)
+
+I also went for Amber as the image background colour in case the image doesnt load.  This is to create contrast with the h2 on the contact page and because it is beer coloured.
+![Amber Background](assets/images/contact-amber-background.png)
 
 ### Typography
 
