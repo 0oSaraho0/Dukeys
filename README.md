@@ -56,6 +56,7 @@ The owner wanted a masculine feel to the page, and I felt the site needed a clea
 ![#fff8dc](assets/images/fff8dc.png)
 
 I also went for Amber as the image background colour in case the image doesnt load.  This is to create contrast with the h2 on the contact page and because it is beer coloured.
+
 ![Amber Background](assets/images/contact-amber-background.png)
 
 ### Typography
@@ -66,9 +67,17 @@ I used Helvetica and Georgia for my back up fonts because they look similar.
 
 ### Imagery
 
-The images used on the home and contact pages are inviting for thirsty beer enthusiasts that get excited over a refreshing pint of beer.  I used beer glasses on the recipe page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.
+The images used on the home and contact pages are inviting for thirsty beer enthusiasts that get excited over a refreshing pint of beer. 
+
+![Home page hero image](assets/images/small-hero-image.png) ![contant background image](assets/images/small-contact-img.png)
+
+I used beer glasses on the recipe page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.
+
+![Example Glass](assets/images/rosendahl-grand-cru-beer-glass.png)
 
 The recipes have a white boarder arround them to give them a nice finish that matches the edge of the pictures. both picutes and recepies have a 10px radius to give nice rounded corners.
+
+![Recipe Card](assets/images/recipe-card.png)
 
 # Features
 
