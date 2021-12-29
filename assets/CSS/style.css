@@ -97,7 +97,7 @@ a {
 .card {
     text-align: center;
     width: 33.3%;
-    height: 40vh;
+    height: 32vh;
     z-index: auto;
 }
 
@@ -107,8 +107,8 @@ a {
 }
 
 .card img {
-    height: 80%;
-    width: 45%;
+    height: 83%;
+    width: 48%;
     border: 2px white;
     border-radius: 10px;
 }
