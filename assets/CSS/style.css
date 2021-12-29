@@ -91,14 +91,13 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 80vh;
     width: 100%;
 }
 
 .card {
     text-align: center;
     width: 33.3%;
-    height: 45%;
+    height: 40vh;
     z-index: auto;
 }
 
@@ -210,6 +209,7 @@ footer {
     width: 100%;
     background-color: #202020;
     color: cornsilk;
+    z-index: 1000;
 }
 
 .social-networks {
@@ -234,7 +234,6 @@ footer {
 @media screen and (max-width: 1185px) {
     #heading {
         font-size: 700%;
-
     }
 
     .menu>li {
@@ -257,6 +256,10 @@ footer {
 
     /*recepie page*/
 
+    .card {
+        height: 34vh;
+
+    }
     .card-reverse {
         width: 308.5px;
     }
@@ -292,7 +295,8 @@ footer {
     /*recepie page*/
 
     .card {
-        width: 50%
+        width: 50%;
+        height: 34vh;
     }
 
     .card-reverse {
@@ -303,7 +307,7 @@ footer {
 .form-background>h2 {
     width: 50%;
 }
-}
+
 
 /* small media query screens smaller than 950px*/
 
@@ -432,7 +436,6 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 0;
-
     }
 
     .form-background>h2 {
@@ -442,7 +445,6 @@ footer {
        width: 84%;
        left: 0;
        margin: 0;
-       
     }
 }
 
@@ -522,7 +524,6 @@ footer {
        width: 100%;
        left: 0;
        margin-left: 0;
-       
     }
     /*footer 400px*/
 

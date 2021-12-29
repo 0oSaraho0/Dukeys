@@ -95,8 +95,6 @@ I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto
 
 on media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
 
-The footer on the recipe page overlaps with the names of the beers at the bottom.  I have made a small fix just by making the footer text smaller but this does not really fix the problem.  
-
 
 # Fixed bug.  
 
@@ -109,6 +107,107 @@ I inspected the code below and found a typo error gpx instead of px.
     }
 ~~~
 
+The footer on the recipe page overlaps with the names of the beers at the bottom.  I have made a small fix just by making the footer text smaller.
+
+The hover cards on the recipe page overlap the footer this causes bad UX expecially on mobile devices because you can't click the social media links without the hover cards getting in the way.
+
+To fix this bug I needed to look at the code for the cards and hover cards.
+~~~
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    width: 33.3%;
+    height: 45%;
+    z-index: auto;
+}
+
+.card>h2 {
+    font-family: "Bebas Neue", Helvetica, serif;
+
+}
+
+.card img {
+    height: 80%;
+    width: 45%;
+    border: 2px white;
+    border-radius: 10px;
+}
+
+.card-reverse {
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: -100%;
+    left: 10%;
+    width: 422.5px;
+    height: 259.76px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.card-reverse>ul {
+    z-index: 2;
+    font-size: 12px;
+    list-style-type: none;
+    background-color: #202020;
+    border: solid cornsilk;
+    border-radius: 10px;
+}
+
+.card:hover .card-reverse {
+    opacity: 1;
+}
+~~~
+Fist I needed to take of the 80vh on my container.  This distorted the display on my larger screens but interestinly not my smaller screens
+
+I looked at my smaller media queries and noticed that I had added individual vh hights to my .card as shown below. 
+
+~~~
+ /*recipe page 400px*/
+
+    .card {
+        width: 100%;
+        height: 25vh;
+    }
+~~~
+
+I added individual vh line hights to the .card divs in the larger screen sizes rather than % ones i had before.
+
+~~~
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    width: 33.3%;
+    height: 40vh;
+    z-index: auto;
+~~~
+
+Once I had completed this I was able to give my footer a z index of 1000 so it sat above everything else on the page.
+
+~~~
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202020;
+    color: cornsilk;
+    z-index: 1000;
+}
+~~~
 
 # Testing
 
@@ -136,5 +235,7 @@ It found the following errors
 
 ![w3c Test](assets/images/w3c-validation.PNG)
 
-I have been through my code and corrected all of the errors stated.  Only the last error caused me to complete an extr small fix on the size of the recipe hover card to go with it.
+I have been through my code and corrected all of the errors stated.  Only the last error caused me to complete an extr small fix on the size of the recipe hover card to go with it. I now have zero errors as shown below.
+
+![w3c Test](assets/images/correct-w3c.PNG)
 
