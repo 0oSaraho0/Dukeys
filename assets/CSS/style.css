@@ -421,7 +421,7 @@ footer {
     }
 
     .card-reverse>ul {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     /*contact page 562px*/
@@ -500,8 +500,9 @@ footer {
     }
 
     .card-reverse {
-        width: 266px;
-        height: 183.76px;
+        width: 301px;
+        height: 260.76px;
+        left: 4%;
     }
 
     /*contact page 400px*/
