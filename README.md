@@ -99,10 +99,18 @@ The footer on the recipe page overlaps with the names of the beers at the bottom
 
 
 
+
+.card-reverse {
+        width: 266gpx;
+        height: 218.76px;
+    }
+
+
+
 # Testing
 
-I have tested all links to ensure that they work correctly.
-All social media links open to the correct web page in a new web page.
+I have tested all links to ensure that they take you to the correct place on the site.
+I have tested all social media links and they all open to the correct web page in a new web page.
 
 I used https://wave.webaim.org/ to test the accessibility of my website.  
 ![Wave Test](assets/images/wave-test-1.jpg)
@@ -111,7 +119,9 @@ It showed 2 errors on my recipe page, both of which were empty headings.  After 
 
 It also showed errors because my headings were not flowing properly.  I had used h1s on my recepies when i should have used h2s.  this again was an easy fix
 
+![Wave Test](assets/images/wave-test-contact.png)
 
+The wave test on my contact page showed a contrast error with my h2.  This was because the image background color was #202020.  To correct this error I changed the background colour for the picture to Amber.  I picked Amber because it is beer coloured.
 
 
 

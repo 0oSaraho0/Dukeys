@@ -152,6 +152,7 @@ a {
     width: 100%;
     background-size: cover;
     background-image: url('../images/form-background.jpg');
+    background-color: #ffbf00;
 }
 
 .contact-form {
@@ -176,6 +177,7 @@ a {
     width: 34%;
     color: black;
     height: fit-content;
+    font-weight: 900;
 }
 
 .text-input {
