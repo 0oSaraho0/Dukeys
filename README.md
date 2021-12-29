@@ -239,3 +239,15 @@ I have been through my code and corrected all of the errors stated.  Only the la
 
 ![w3c Test](assets/images/correct-w3c.PNG)
 
+### Lighthouse Tests
+
+Homepage lighthouse test
+
+![trafficlight Test](assets/images/lighthouse-home.PNG)
+
+
+Contact Page Test
+
+![lighthouse test](assets/images/lighthouse-contact.PNG)
+
+

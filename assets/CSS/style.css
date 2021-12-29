@@ -107,8 +107,8 @@ a {
 }
 
 .card img {
-    height: 83%;
-    width: 48%;
+    height: 200px;
+    width: 200px;
     border: 2px white;
     border-radius: 10px;
 }
@@ -368,6 +368,11 @@ footer {
         width: 50%;
     }
 
+    .card img {
+        height: 150px;
+        width: 150px;
+    }
+
     .card-reverse {
         width: 305.5px;
         height: 184.76px;
@@ -531,6 +536,4 @@ footer {
     .social-networks {
         font-size: 17px;
     }
-
-
 }
