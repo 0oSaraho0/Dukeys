@@ -91,20 +91,38 @@ The recipes have a white boarder arround them to give them a nice finish that ma
 - The tagline "Lets Brew.. Some Beer" informs the user the site is about brewing beer and links straight to the recipe page when clicked.  This promotes ease of use for site navigation.
 - The hero image is of a pint of beer also gives the user information that the site is about beer brewing and looks inviting to beer drinkers
 
+![Tagline](assets/images/tagline.png)
 
-- The footer has social media links so that the user can link to the owners social media sites where then can find more up to date information from the owner and comment and connect with other beer enthusiasts through social media.  These are visible as you scroll up and down the page so they are easy to find.
-- The recipe page has a hover function so the user can place the curser over the image of the beer and the recipe pops up over the top. This is fun inviting imagry and also makes the recipe for each beer easy to find. Each picture also has the name of the beer underneeth is so they are easy to find.
+- The footer has social media links so that the user can link to the owners social media sites where then can find more up to date information from the owner and comment and connect with other beer enthusiasts through social media.  These are visible as you scroll up and down the page so they are easy to find.  I played with favicons for the icons to the social media links but in the end prefered the look of them written out so decided not to use them.
+
+![Footer](assets/images/footer.png)
+
+- The recipe page has a hover function so the user can place the curser over the image of the beer and the recipe pops up over the top. This is fun inviting imagry and also makes the recipe for each beer easy to find. Each picture also has the name of the beer underneeth it so they are easy to find.
+
 - The contact page allows enquires to be sent straight to the site owner. 
 - radio buttons on the form allow the user to say yes or no to the newsletter.  I have used radio buttons rather than a tick box so that it is obvious they do not want the newsletter rather than possibly neglecting to tick the box.  This promotes better UX because it is then clear what he needs of the user are.
+- The submit button has a hover function to make it clearer when it is being pressed.
 
-### Features left to impliment
+![Contact Form](assets/images/form.png)
 
-- A gallery page of photos.  Once the owner has a sufficent number of photos he likes a new page can be added and the navigation bar updated.
+- The heading on the contact page makes it clear what the form is for and that you can subscribe to the newsetter.  These extras promotes ease of use for the consumer.
+
+![Contact Head](assets/images/contact-head.png)
+
+## Features left to impliment
+
+- A gallery page of photos.  Once the owner has a sufficent number of photos he likes, a new page can be added and the navigation bar updated.
 - a comments section.  The owner would at some point like a comments section where beer enthusiasts and himself could talk with each other straight onto the site.  This coud be added to the contact page underneath the form and the navigation bar could be updated as well to show this.
 
 # references
 
-I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto/howto_css_fixed_footer.asp
+- I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto/howto_css_fixed_footer.asp
+- I used the love running project with the form
+- My friend Simon Duke was the idea behind the page and provided some of the beer recipes.
+- Other recipes came from https://beerandbrewing.com/beer-recipes/ 
+- W3 schools helped with my cards https://www.w3schools.com/howto/howto_css_product_card.asp
+- Me Mentors were generally very helpful
+-  
 
 
 
@@ -113,7 +131,7 @@ I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto
 on media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
 
 
-# Fixed bug.  
+# Fixed bugs.  
 
 I found an error with my recipe cards on small divices. Width of the recipe hover box was not getting smaller as I had indicated.
 I inspected the code below and found a typo error gpx instead of px.
