@@ -305,6 +305,8 @@ I have updated the .card height from 33vh to 27vh in that media query.
         height: 27vh;
     }   
 ~~~
+This ended up causing the recipe cards to overlap slightly at the bottom on small screen sizes so I have reverted the above card height back to 33vh and have adjusted the top  on the .reverse-card to -88% in the 400px media query and -96% in the 562px media query.  This looks ok now.
+
 ---
 
 # Testing
