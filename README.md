@@ -7,6 +7,29 @@
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
 
+- [About](#about)
+- [User Experience (UX)](#user-experience--ux-)
+- [Wireframes](#wireframes)
+  * [Colour Schemes](#colour-schemes)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features left to implement](#features-left-to-implement)
+- [Existing Bugs](#existing-bugs)
+- [Fixed bugs.](#fixed-bugs)
+- [Testing](#testing)
+  * [Wave Test](#wave-test)
+  * [Jigsaw test](#jigsaw-test)
+  * [Lighthouse Tests](#lighthouse-tests)
+  * [Nu Html Checker](#nu-html-checker)
+- [References and Acknowledgments](#references-and-acknowledgments)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Personal Devlopment](#personal-devlopment)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # About
 
@@ -378,6 +401,7 @@ Contact Page
 - [https://jigsaw.w3.org/css-validator/] was used to check the css on my site.
 - [https://web.dev/measure/] was used to check the UX and performance of my site
 - [https://validator.w3.org/] was used to check the html on my website.
+-https://ecotrust-canada.github.io/markdown-toc/ to make my contents links.
 
 # Deployment
 
