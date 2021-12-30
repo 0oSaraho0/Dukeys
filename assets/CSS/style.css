@@ -121,7 +121,7 @@ a {
     display: flex;
     position: relative;
     text-align: center;
-    top: -100%;
+    top: -97%;
     left: 10%;
     width: 422.5px;
     height: 259.76px;
@@ -359,7 +359,6 @@ footer {
         margin-top: 4%;
     }
 
-
     #heading {
         font-size: 500%;
 
@@ -526,7 +525,7 @@ footer {
         width: 301px;
         height: 260.76px;
         left: 4%;
-        top: -88%;
+        top: -96%;
     }
 
     /*contact page 400px*/
