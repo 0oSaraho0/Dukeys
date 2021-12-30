@@ -71,9 +71,9 @@ The images used on the home and contact pages are inviting for thirsty beer enth
 
 ![Home page hero image](assets/images/small-hero-image.png) ![contant background image](assets/images/small-contact-img.png)
 
-I used beer glasses on the recipe page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.
+I used beer glasses on the recipe page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.  It also has a the name of the beer in bold underneath.
 
-![Example Glass](assets/images/rosendahl-grand-cru-beer-glass.png)
+![Example Glass](assets/images/small-sample-glass.png)
 
 The recipes have a white boarder arround them to give them a nice finish that matches the edge of the pictures. both picutes and recepies have a 10px radius to give nice rounded corners.
 
