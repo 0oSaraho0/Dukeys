@@ -7,6 +7,8 @@
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
 
+# Table of Contents
+
 - [About](#about)
 - [User Experience (UX)](#user-experience--ux-)
 - [Wireframes](#wireframes)
@@ -424,3 +426,4 @@ Contact Page
 - Git commits were another steep learning curve.  The ones at the begining were not explanatory enough and although I tried to get better at them as the project went on I did find it difficult.  
 
 - The hardest bit for me is only doing one thing and a time rather than lots of little fixes all over the site and then having a messy commit message or even forgetting what I have done completely.  This is still a work in progress that I will continue to hone on future projects.  I do understand how bad commit messages make it difficult for other developers looking at your work to understand what you have done, and I am committed to making this skill better. 
+- At the very begining of this project I started off with a different look to the website.  I started before my first meeting with my mentor and he advised me to go in a different direction after that first meeting.  I did not include this information in the readme because I felt like it was better to start from scratch again at this point. I have learnt to make sure I have good wireframes that I show to my mentor or workplace moving forward so that I don't waste time giong down a wrong path.
