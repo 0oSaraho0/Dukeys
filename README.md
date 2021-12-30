@@ -164,12 +164,18 @@ The recipes have a white boarder around them to give them a nice finish that mat
 
 ---
 
-# Existing Bugs
+# Fixed bugs
 
 On media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
 
+to fix this I changed the margin top on my .menu in the 836 media query from -2% to 4%
 
-# Fixed bugs.  
+.menu {
+        float: left;
+        margin-left: 2%;
+        margin-top: -2%;
+
+---
 
 I found an error with my recipe cards on small devices. Width of the recipe hover box was not getting smaller as I had indicated.
 I inspected the code below and found a typo error gpx instead of px.
