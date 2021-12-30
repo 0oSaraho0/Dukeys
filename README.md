@@ -274,10 +274,14 @@ I have updated the .card height from 33vh to 27vh in that media query.
         height: 27vh;
     }
 ~~~
+---
+
 # Testing
 
 I have tested all links to ensure that they take you to the correct place on the site.
 I have tested all social media links and they all open to the correct web page in a new web page.
+
+---
 
 ## Wave Test
 
@@ -296,6 +300,8 @@ The wave test on my contact page showed a contrast error with my h2.  This was b
 
 My home page showed zero errors.
 
+---
+
 ## Jigsaw test
 
 Next I tested the site with The W3C CSS jigsaw Validation Service [https://jigsaw.w3.org/css-validator/].
@@ -311,6 +317,8 @@ I have been through my code and corrected all of the errors stated.  Only the la
 ![jigsaw Test3](assets/images/jigsaw-recipes.png)
 
 ![jigsaw test 4](assets/images/jigsaw-contact.png)
+
+---
 
 ## Lighthouse Tests
 
@@ -330,6 +338,8 @@ Contact Page Test
 
 ![lighthouse test](assets/images/lighthouse-contact.png)
 
+---
+
 ##  Nu Html Checker
 
 Next I checked with the Nu Html Check [https://validator.w3.org/]
@@ -346,6 +356,8 @@ Contact Page
 
 ![nu test 3](assets/images/nu-html-contact.png)
 
+---
+
 # References and Acknowledgments
 
 - I used [w3 schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) to help with fixing my footer.
@@ -353,8 +365,9 @@ Contact Page
 - My friend Simon Duke was the idea behind the website and provided some of the beer recipes.
 - Other recipes came from [https://beerandbrewing.com/beer-recipes/] 
 - [W3 schools](https://www.w3schools.com/howto/howto_css_product_card.asp ) helped with my cards.
-- Me Mentors Daisy Mc Girr and Okwudiri Okoro were generally very helpful
+- Me Mentors Daisy Mc Girr and Okwudiri Okoro were generally very very helpful.
 - The Tutor support team were also helpful when I got stuck.
+- DaveyJH for allowing me to follow his readme and use it as a template.
 
 # Technologies Used
 
