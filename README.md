@@ -7,6 +7,10 @@
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
 
+# Table of Contents
+[About](# About)
+
+
 # About
 
 This website is aimed at home brewing enthusiasts.  The owner of the website wishes to share his home brew recepies and home brewing ideas and have a space for other home brewing enthusiasts to be able to make contact and subscribe to his news letter.
@@ -313,3 +317,4 @@ Recipes Page
 Contact Page
 
 ![nu test 3](assets/images/nu-html-contact.png)
+
