@@ -7,9 +7,6 @@
 
 [Dukeys Brews Live Site](https://0osaraho0.github.io/Dukeys/)
 
-# Table of Contents
-[About](# About)
-
 
 # About
 
@@ -53,7 +50,9 @@ Please see the initial wire frames for this site.
 
 After going over the wireframes with the website owner we decided to go with beer glasses rather than bottles and a dark background with light writing.
 
-### Colour Scheme
+---
+
+## Colour Schemes
 
 The owner wanted a masculine feel to the page, and I felt the site needed a clean look to it. I have decided to go for a simple colour scheme of  #202020 and #fff8dc to facilitate this.  
 ![#202020](assets/images/202020.png)
@@ -63,25 +62,35 @@ I also went for Amber as the image background colour in case the image doesnt lo
 
 ![Amber Background](assets/images/contact-amber-background.png)
 
-### Typography
+---
+
+## Typography
 
 I have used the fonts bebas Neue for my h1 and h2s on my recipe cards as it is bold, eye catching and clean looking.
 I have used Georama for the rest of the font because it also has a clean look and is easy to read.
 I used Helvetica and Georgia for my back up fonts because they look similar.
 
-### Imagery
+---
+
+## Imagery
 
 The images used on the home and contact pages are inviting for thirsty beer enthusiasts that get excited over a refreshing pint of beer. 
 
 ![Home page hero image](assets/images/small-hero-image.png) ![contant background image](assets/images/small-contact-img.png)
 
+---
+
 I used beer glasses on the recipe page rather than the bottles in the wireframes because they look more homely and inviting than the bottles.  It also has a the name of the beer in bold underneath.
 
 ![Example Glass](assets/images/small-sample-glass.png)
 
+---
+
 The recipes have a white boarder arround them to give them a nice finish that matches the edge of the pictures. both picutes and recepies have a 10px radius to give nice rounded corners.
 
 ![Recipe Card](assets/images/recipe-card.png)
+
+---
 
 # Features
 
@@ -92,16 +101,24 @@ The recipes have a white boarder arround them to give them a nice finish that ma
 
 ![Header](assets/images/header-snip.png)
 
+---
+
 - The tagline "Lets Brew.. Some Beer" informs the user the site is about brewing beer and links straight to the recipe page when clicked.  This promotes ease of use for site navigation.
 - The hero image is of a pint of beer also gives the user information that the site is about beer brewing and looks inviting to beer drinkers
 
 ![Tagline](assets/images/tagline.png)
 
+---
+
 - The footer has social media links so that the user can link to the owners social media sites where then can find more up to date information from the owner and comment and connect with other beer enthusiasts through social media.  These are visible as you scroll up and down the page so they are easy to find.  I played with favicons for the icons to the social media links but in the end prefered the look of them written out so decided not to use them.
 
 ![Footer](assets/images/footer.png)
 
+---
+
 - The recipe page has a hover function so the user can place the curser over the image of the beer and the recipe pops up over the top. This is fun inviting imagry and also makes the recipe for each beer easy to find. Each picture also has the name of the beer underneeth it so they are easy to find.
+
+---
 
 - The contact page allows enquires to be sent straight to the site owner. 
 - radio buttons on the form allow the user to say yes or no to the newsletter.  I have used radio buttons rather than a tick box so that it is obvious they do not want the newsletter rather than possibly neglecting to tick the box.  This promotes better UX because it is then clear what he needs of the user are.
@@ -113,20 +130,14 @@ The recipes have a white boarder arround them to give them a nice finish that ma
 
 ![Contact Head](assets/images/contact-head.png)
 
+---
+
 ## Features left to impliment
 
 - A gallery page of photos.  Once the owner has a sufficent number of photos he likes, a new page can be added and the navigation bar updated.
 - a comments section.  The owner would at some point like a comments section where beer enthusiasts and himself could talk with each other straight onto the site.  This coud be added to the contact page underneath the form and the navigation bar could be updated as well to show this.
 
-# references and acknowledgments
-
-- I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto/howto_css_fixed_footer.asp
-- I used the love running project with the form
-- My friend Simon Duke was the idea behind the page and provided some of the beer recipes.
-- Other recipes came from https://beerandbrewing.com/beer-recipes/ 
-- W3 schools helped with my cards https://www.w3schools.com/howto/howto_css_product_card.asp
-- Me Mentors Daisy Mc Girr and Okwudiri Okoro were generally very helpful
-- The student support team were also helpful 
+---
 
 # Existing Bugs
 
@@ -143,6 +154,7 @@ I inspected the code below and found a typo error gpx instead of px.
         height: 218.76px;
     }
 ~~~
+---
 
 The footer on the recipe page overlaps with the names of the beers at the bottom.  I have made a small fix just by making the footer text smaller.
 
@@ -245,7 +257,23 @@ footer {
     z-index: 1000;
 }
 ~~~
+---
 
+The hover cards are overlapping the navigation bar at the top of the page on divices between 562px and 400px.
+
+I have updated the .card height from 33vh to 27vh in that media query.
+
+~~~
+.card {
+        width: 100%;
+        height: 33vh;
+    }
+
+    .card {
+        width: 100%;
+        height: 27vh;
+    }
+~~~
 # Testing
 
 I have tested all links to ensure that they take you to the correct place on the site.
@@ -253,7 +281,7 @@ I have tested all social media links and they all open to the correct web page i
 
 ## Wave Test
 
-I used https://wave.webaim.org/ to test the accessibility of my website.  
+I used [https://wave.webaim.org/] to test the accessibility of my website.  
 ![Wave Test](assets/images/wave-test-1.jpg)
 
 It showed 2 errors on my recipe page, both of which were empty headings.  After checking my code I had not closed the closing tags.  This was an easy fix
@@ -270,7 +298,7 @@ My home page showed zero errors.
 
 ## Jigsaw test
 
-Next I tested the site with The W3C CSS jigsaw Validation Service https://jigsaw.w3.org/css-validator/.
+Next I tested the site with The W3C CSS jigsaw Validation Service [https://jigsaw.w3.org/css-validator/].
 
 It found the following errors
 
@@ -286,7 +314,7 @@ I have been through my code and corrected all of the errors stated.  Only the la
 
 ## Lighthouse Tests
 
-Next I tested with https://web.dev/measure/
+Next I tested with [https://web.dev/measure/]
 
 Homepage lighthouse test
 
@@ -304,7 +332,7 @@ Contact Page Test
 
 ##  Nu Html Checker
 
-Next I checked with the Nu Html Check https://validator.w3.org/
+Next I checked with the Nu Html Check [https://validator.w3.org/]
 
 Home Page
 
@@ -318,3 +346,34 @@ Contact Page
 
 ![nu test 3](assets/images/nu-html-contact.png)
 
+# References and Acknowledgments
+
+- I used [w3 schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) to help with fixing my footer.
+- I used the love running project with the form.
+- My friend Simon Duke was the idea behind the website and provided some of the beer recipes.
+- Other recipes came from [https://beerandbrewing.com/beer-recipes/] 
+- [W3 schools](https://www.w3schools.com/howto/howto_css_product_card.asp ) helped with my cards.
+- Me Mentors Daisy Mc Girr and Okwudiri Okoro were generally very helpful
+- The Tutor support team were also helpful when I got stuck.
+
+# Technologies Used
+
+- Balsamiq wireframes were used to creat my wireframes
+- [Color Hunt] (https://colorhunt.co/) was used to help find my color scheme
+- Chrome Dev Tools was used to modify website once the main structure was in.
+- [https://wave.webaim.org/] was used to check the accessability of my site
+- [https://jigsaw.w3.org/css-validator/] was used to check the css on my site.
+- [https://web.dev/measure/] was used to check the UX and performance of my site
+- [https://validator.w3.org/] was used to check the html on my website.
+
+# Deployment
+
+
+
+# Personal Devlopment
+
+- I have learnt so much doing this project.  The first thing I learnt was to calm down and try to work things out before asking for help.  I found a couple of times I sent a request to tutor support only to figure it out myself whilst I was waiting.  Although my problem solving skills are definately coming along I am working on them all of the time and they are diffinately an ongoing skill.
+
+- Git commits were another steep learning curv.  The ones at the begining were not explanitory enough and although I tried to get better at them as the project went on I did find it difficult.  
+
+- The hardest bit for me is only doing one thing and a time rather then lots of little fixes all over the site and then having a messy commit message or even forgetting what I have done completely.  This is still a work in progress that I will continue to hone on future projects.  I do understand how bad commit messages make it difficult for other developers looking at your work to understand what you have done, and I am commited to making this skill better. 
