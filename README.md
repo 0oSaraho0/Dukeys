@@ -85,8 +85,13 @@ The recipes have a white boarder arround them to give them a nice finish that ma
 
 - The header is visible on every page and has a consistant design throughout.
 - The menu bar is is available at the top of every page, this gives the user ease of navigation when moving to different pages on the site.
-- The tagline "Lets Brew.. Some Beer" informs the user the site is about brewing beer and takes you straight to the recipe page when clicked.  This promotes ease of use for site navigation.
+
+![Header](assets/images/header-snip.png)
+
+- The tagline "Lets Brew.. Some Beer" informs the user the site is about brewing beer and links straight to the recipe page when clicked.  This promotes ease of use for site navigation.
 - The hero image is of a pint of beer also gives the user information that the site is about beer brewing and looks inviting to beer drinkers
+
+
 - The footer has social media links so that the user can link to the owners social media sites where then can find more up to date information from the owner and comment and connect with other beer enthusiasts through social media.  These are visible as you scroll up and down the page so they are easy to find.
 - The recipe page has a hover function so the user can place the curser over the image of the beer and the recipe pops up over the top. This is fun inviting imagry and also makes the recipe for each beer easy to find. Each picture also has the name of the beer underneeth is so they are easy to find.
 - The contact page allows enquires to be sent straight to the site owner. 
