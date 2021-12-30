@@ -381,6 +381,16 @@ Contact Page
 
 # Deployment
 
+- My website was deployed to GitHub Pages 
+- First go to the GitHub repository and select settings
+![GitHub Settings](assets/images/github-settings.png).
+- Then scroll down to the GitHub pages section and click the link.
+![GitHub Pages](assets/images/github-pages.png)
+- Then click on the dropdown box below source and pick Branch Main and, indicated in the red circle and click save.
+- You will then be deployed, your we baddress will show in the green banner, in the blue circle.
+![GitHub Pages 2](assets/images/github-pages2.png).
+- It can take a couple of minutes for your website to deploy.
+
 
 
 # Personal Devlopment
