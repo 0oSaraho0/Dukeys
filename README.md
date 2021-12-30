@@ -114,21 +114,19 @@ The recipes have a white boarder arround them to give them a nice finish that ma
 - A gallery page of photos.  Once the owner has a sufficent number of photos he likes, a new page can be added and the navigation bar updated.
 - a comments section.  The owner would at some point like a comments section where beer enthusiasts and himself could talk with each other straight onto the site.  This coud be added to the contact page underneath the form and the navigation bar could be updated as well to show this.
 
-# references
+# references and acknowledgments
 
 - I used w3 schools to help with fixing my footer. https://www.w3schools.com/howto/howto_css_fixed_footer.asp
 - I used the love running project with the form
 - My friend Simon Duke was the idea behind the page and provided some of the beer recipes.
 - Other recipes came from https://beerandbrewing.com/beer-recipes/ 
 - W3 schools helped with my cards https://www.w3schools.com/howto/howto_css_product_card.asp
-- Me Mentors were generally very helpful
--  
-
-
+- Me Mentors Daisy Mc Girr and Okwudiri Okoro were generally very helpful
+- The student support team were also helpful 
 
 # Existing Bugs
 
-on media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
+On media query 836px the nav bar doesn't float left in time and goes to the top of the screen for a very short period.  I have not fixed this query yet.  it is only on a very small number of screen sizes.  more work needs to be done to get it to go under the title at the correct screen width.
 
 
 # Fixed bugs.  
@@ -249,6 +247,8 @@ footer {
 I have tested all links to ensure that they take you to the correct place on the site.
 I have tested all social media links and they all open to the correct web page in a new web page.
 
+## Wave Test
+
 I used https://wave.webaim.org/ to test the accessibility of my website.  
 ![Wave Test](assets/images/wave-test-1.jpg)
 
@@ -264,17 +264,25 @@ The wave test on my contact page showed a contrast error with my h2.  This was b
 
 My home page showed zero errors.
 
-Next I tested the site with The W3C CSS Validation Service.
+## Jigsaw test
+
+Next I tested the site with The W3C CSS jigsaw Validation Service https://jigsaw.w3.org/css-validator/.
 
 It found the following errors
 
-![w3c Test](assets/images/w3c-validation.png)
+![Jigsaw test 1](assets/images/w3c-validation.png)
 
-I have been through my code and corrected all of the errors stated.  Only the last error caused me to complete an extr small fix on the size of the recipe hover card to go with it. I now have zero errors as shown below.
+I have been through my code and corrected all of the errors stated.  Only the last error caused me to complete an extra small fix on the size of the recipe hover card to go with it. I now have zero errors as shown below.
 
-![w3c Test](assets/images/correct-w3c.png)
+![Jigsaw test2](assets/images/correct-w3c.png)
 
-### Lighthouse Tests
+![jigsaw Test3](assets/images/jigsaw-recipes.png)
+
+![jigsaw test 4](assets/images/jigsaw-contact.png)
+
+## Lighthouse Tests
+
+Next I tested with https://web.dev/measure/
 
 Homepage lighthouse test
 
@@ -284,11 +292,24 @@ Recipe Page test
 
 ![trafficlight Test](assets/images/lighthouse-recipe.png)
 
-This recipe page was quite a bit of work to pass this test.  I had to resize all of my beer glass pictures and swap two that were poor quality for higher resolution pictures.
-
+This recipe page was quite a bit of work to pass this test.  I had to resize all of my beer glass pictures and swap two that were poor quality for higher resolution pictures.  I also had to ensure my font size did not go below 12px on the small screen sizes.
 
 Contact Page Test
 
 ![lighthouse test](assets/images/lighthouse-contact.png)
 
+##  Nu Html Checker
 
+Next I checked with the Nu Html Check https://validator.w3.org/
+
+Home Page
+
+![nu test 1](assets/images/nu-html-home.png)
+
+Recipes Page
+
+![nu test 2](assets/images/nu-html-recipe.png)
+
+Contact Page
+
+![nu test 3](assets/images/nu-html-contact.png)
