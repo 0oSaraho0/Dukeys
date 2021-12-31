@@ -163,6 +163,9 @@ The recipes have a white boarder around them to give them a nice finish that mat
 - a comments section.  The owner would at some point like a comments section where beer enthusiasts and himself could talk with each other straight onto the site.  This could be added to the contact page underneath the form and the navigation bar could be updated as well to show this.
 
 ---
+# Existing bugs
+
+There is very little space between the bottom of recipe hovers and glass images on the recipes page, on some screen widths, I have played with moving the glass pictures up the page slightly but this then affects the styling at the top of the page.  The footer could do with some padding but I have not added it as this stage because it makes this styling worse.  More work needs to be done to this to make everything fit properly on the page.  You can still see everything that is needed at the moment so I don't consider it to be an urgent fix, but definitely something that I would want to look at if I had more time.
 
 # Fixed bugs
 
