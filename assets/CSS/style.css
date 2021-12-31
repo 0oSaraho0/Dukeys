@@ -198,6 +198,7 @@ a {
     background-color: inherit;
     border: 2px;
     border-color: cornsilk;
+    padding: 5px;
 }
 
 .submit-button:hover {
@@ -267,6 +268,7 @@ footer {
 
     .card-reverse {
         width: 308.5px;
+        
     }
 
     /*contact page 1185px*/
